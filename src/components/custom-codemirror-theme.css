@@ -1,0 +1,30 @@
+/* Custom theme styles */
+.custom-codemirror-theme .CodeMirror {
+    background-color: #282727; /* Background color */
+    color: #efe6e6; /* Text color */
+    font-family: 'Courier New', Courier, monospace; /* Font */
+}
+
+.custom-codemirror-theme .CodeMirror-gutters {/* General CodeMirror editor styling */
+    .custom-codemirror-theme .CodeMirror {
+        background-color: #282727; /* Background color */
+        color: #efe6e6; /* Default text color */
+        font-family: 'Courier New', Courier, monospace; /* Font */
+    }
+    
+    /* Styling for gutters (line numbers) */
+    .custom-codemirror-theme .CodeMirror-gutters {
+        background-color: #ddd; /* Gutter background color */
+        color: #666; /* Gutter text color */
+    }
+    
+    /* Styling for line numbers */
+    .custom-codemirror-theme .CodeMirror-linenumber {
+        color: #999; /* Line number color */
+    }
+    
+    /* Styling for the fold gutter */
+    .custom-codemirror-theme .CodeMirror-foldgutter {
+        background-color: #ccc; /* Fold gutter background color */
+    }
+}
